@@ -6,7 +6,7 @@ const Data : React.FC = async () => {
 
   return (
     <ul>
-        {data.map((p) =>(
+        {data.map((p : any) =>(
             <li key={p.id} className='border'>{p.title}</li>
         ))}
     </ul>
